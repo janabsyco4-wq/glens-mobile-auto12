@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Glen's Mobile Auto Repair Services | Mobile Mechanic in Houston, TX</title>
+<!-- Vercel deployment trigger -->
+<meta name="description" content="Glen's Mobile Auto Repair Services — professional mobile auto repair that comes to you in Houston, Texas. Brakes, batteries, engine repair, electrical diagnostics and more. Call (832) 202-4204.">
+<meta name="keywords" content="mobile auto repair Houston, mobile mechanic Houston, car repair near me, brake repair Houston, battery replacement Houston, engine repair Houston, electrical diagnostics Houston, roadside assistance Houston">
+<meta name="theme-color" content="#08080a">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.glensmobilerepair.example/"> <!-- TODO: replace with the live domain -->
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Glen's Mobile Auto Repair Services | Houston, TX">
+<meta property="og:description" content="Mobile auto repair that comes to you. Professional service across Houston — call (832) 202-4204.">
+<meta property="og:image" content="https://www.glensmobilerepair.example/assets/img/hero.jpg">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Glen's Mobile Auto Repair Services | Houston, TX">
+<meta name="twitter:description" content="Mobile auto repair that comes to you across Houston. Call (832) 202-4204.">
+<meta name="twitter:image" content="https://www.glensmobilerepair.example/assets/img/hero.jpg">
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%23e11d2a'/%3E%3Cpath d='M67 31a15 15 0 0 0-17 24L28 77l8 8 22-22a15 15 0 0 0 24-17l-10 10-11-2-2-11z' fill='white'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="assets/css/styles.css">
+<script>document.documentElement.classList.add('js');</script>
+
+<!-- Structured data: LocalBusiness (AutoRepair) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AutoRepair",
+  "name": "Glen's Mobile Auto Repair Services",
+  "image": "https://www.glensmobilerepair.example/assets/img/hero.jpg",
+  "telephone": "+1-832-202-4204",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "5023 Addicks Satsuma Rd Ste R",
+    "addressLocality": "Houston",
+    "addressRegion": "TX",
+    "postalCode": "77084",
+    "addressCountry": "US"
+  },
+  "areaServed": [
+    { "@type": "City", "name": "Houston" },
+    { "@type": "City", "name": "Barker" },
+    { "@type": "City", "name": "Katy" },
+    { "@type": "City", "name": "Cypress" },
+    { "@type": "City", "name": "Tomball" },
+    { "@type": "City", "name": "Sugar Land" },
+    { "@type": "City", "name": "The Woodlands" },
+    { "@type": "City", "name": "Pearland" }
+  ],
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+    "opens": "00:00",
+    "closes": "23:59"
+  }],
+  "makesOffer": [
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Brake Service" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Battery Service" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Engine Repair" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Electrical Diagnostics" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Starter & Alternator Repair" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "General Maintenance" } }
+  ]
+}
+</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ============ SVG ICON SPRITE ============ -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="i-wrench" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4 4 0 0 0-5.2 5.2L3 18l3 3 6.5-6.5a4 4 0 0 0 5.2-5.2l-2.6 2.6-2.6-.6-.6-2.6z"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2 4.2 2 2 0 0 1 4 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 11.5a16 16 0 0 0 4.5 4.5l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></symbol>
+    <symbol id="i-car" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 17H3v-5l2-5h14l2 5v5h-2M5 17a2 2 0 1 0 4 0M15 17a2 2 0 1 0 4 0M5 17h10M9 7v5M15 7v5"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-bolt" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L4 14h7l-1 8 9-12h-7z"/></symbol>
+    <symbol id="i-battery" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="16" height="11" rx="2"/><path d="M22 10v5M6 4v3M14 4v3M6 12h6"/></symbol>
+    <symbol id="i-engine" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 10V8h4v2h3l2 2h3v4h-2v2H9v-2H6l-2-2v-3H2v-3h3z"/><path d="M11 6h4"/></symbol>
+    <symbol id="i-chip" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="7" width="10" height="10" rx="1.5"/><path d="M10 2v3M14 2v3M10 19v3M14 19v3M2 10h3M2 14h3M19 10h3M19 14h3"/></symbol>
+    <symbol id="i-alternator" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M19.1 4.9L17 7M7 17l-2.1 2.1"/></symbol>
+    <symbol id="i-oil" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11z"/></symbol>
+    <symbol id="i-brake" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.5"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3"/></symbol>
+    <symbol id="i-alert" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.3 3.9L1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"/><path d="M12 9v4M12 17h.01"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.4 8.4 0 0 1-9 8.4 8.5 8.5 0 0 1-3.8-.9L3 21l1.9-5.2A8.4 8.4 0 0 1 12 3a8.5 8.5 0 0 1 9 8.5z"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></symbol>
+    <symbol id="i-key" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="7.5" cy="15.5" r="4.5"/><path d="M10.7 12.3L21 2M15 8l3 3M18 5l2 2"/></symbol>
+    <symbol id="i-route" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="19" r="2.5"/><circle cx="18" cy="5" r="2.5"/><path d="M8.5 19H15a3.5 3.5 0 0 0 0-7H9a3.5 3.5 0 0 1 0-7h6.5"/></symbol>
+    <symbol id="i-tools" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4 4 0 0 0-5.2 5.2L3 18l3 3 6.5-6.5a4 4 0 0 0 5.2-5.2l-2.6 2.6-2.6-.6-.6-2.6z"/></symbol>
+    <symbol id="i-chev-l" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></symbol>
+    <symbol id="i-chev-r" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></symbol>
+    <symbol id="i-map" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3L3 6v15l6-3 6 3 6-3V3l-6 3-6-3z"/><path d="M9 3v15M15 6v15"/></symbol>
+  </defs>
+</svg>
+
+<!-- ============ HEADER ============ -->
+<header class="header" id="top">
+  <div class="container">
+    <a href="#top" class="logo" aria-label="Glen's Mobile Auto Repair Services home">
+      <span class="logo-mark"><svg><use href="#i-wrench"/></svg></span>
+      <span class="logo-text"><span class="lt-1">Glen's Mobile</span><span class="lt-2">Auto Repair</span></span>
+    </a>
+    <nav class="nav" aria-label="Primary">
+      <a href="#top" class="active">Home</a>
+      <a href="#services">Services</a>
+      <a href="#come">We Come To You</a>
+      <a href="#showcase">Diagnostics</a>
+      <a href="#why">Why Us</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="header-cta">
+      <a href="tel:+18322024204" class="header-phone" aria-label="Call Glen's Mobile Auto Repair at (832) 202-4204">
+        <span class="hp-label">Call / Text</span>
+        <span class="hp-num">(832) 202-4204</span>
+      </a>
+      <a href="tel:+18322024204" class="btn btn-primary btn-sm"><svg><use href="#i-phone"/></svg> Call Now</a>
+      <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-nav" id="mobile-nav">
+  <a class="mn-link active" href="#top">Home</a>
+  <a class="mn-link" href="#services">Services</a>
+  <a class="mn-link" href="#come">We Come To You</a>
+  <a class="mn-link" href="#showcase">Diagnostics</a>
+  <a class="mn-link" href="#why">Why Us</a>
+  <a class="mn-link" href="#reviews">Reviews</a>
+  <a class="mn-link" href="#contact">Contact</a>
+  <div class="mn-cta">
+    <a href="tel:+18322024204" class="btn btn-primary"><svg><use href="#i-phone"/></svg> Call (832) 202-4204</a>
+    <a href="#contact" class="btn btn-secondary">Request Service</a>
+  </div>
+</div>
+
+<main id="main">
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="hero">
+  <div class="hero-bg"><img src="assets/img/hero.jpg" alt="Professional mobile mechanic servicing a modern vehicle in Houston" width="1792" height="1024" fetchpriority="high" decoding="async"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-grid-lines"></div>
+
+  <div class="container">
+    <div class="hero-inner">
+      <div class="hero-content">
+        <span class="hero-badge"><span class="pulse-dot"></span> Mobile Service · Houston, Texas</span>
+        <h1 data-split>Mobile Auto Repair That Comes To You.</h1>
+        <p class="hero-desc">Professional mobile automotive service in Houston — helping you get back on the road without the hassle of taking your vehicle to a shop.</p>
+        <div class="hero-actions">
+          <a href="tel:+18322024204" class="btn btn-primary btn-lg"><svg><use href="#i-phone"/></svg> Call For Service</a>
+          <a href="#services" class="btn btn-secondary btn-lg">View Services <svg><use href="#i-arrow"/></svg></a>
+        </div>
+        <div class="hero-trust">
+          <span class="ht-item"><svg><use href="#i-check"/></svg> We come to your location</span>
+          <span class="ht-item"><svg><use href="#i-check"/></svg> Cars &amp; light trucks</span>
+          <span class="ht-item"><svg><use href="#i-check"/></svg> Direct line to your mechanic</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating HUD (parallax layers, desktop) -->
+  <div class="hero-hud hud-1" data-depth="0.05">
+    <div class="hud-card">
+      <span class="hud-ic"><svg><use href="#i-route"/></svg></span>
+      <span class="hud-tx"><span class="hud-t1">On The Way</span><br><span class="hud-t2">Mobile service dispatched</span></span>
+    </div>
+  </div>
+  <div class="hero-hud hud-2" data-depth="0.09">
+    <div class="hud-card">
+      <span class="hud-ic"><svg><use href="#i-chip"/></svg></span>
+      <span class="hud-tx"><span class="hud-t1">Diagnostics</span><br><span class="hud-t2">On-site electrical testing</span></span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TRUST BAR ============ -->
+<section class="trust-bar" aria-label="What we offer">
+  <div class="container">
+    <div class="trust-item reveal"><span class="ti-ic"><svg><use href="#i-car"/></svg></span><span class="ti-tx"><span class="ti-t1">Mobile Service</span><br><span class="ti-t2">We come to you</span></span></div>
+    <div class="trust-item reveal" data-delay="1"><span class="ti-ic"><svg><use href="#i-tools"/></svg></span><span class="ti-tx"><span class="ti-t1">Professional Repairs</span><br><span class="ti-t2">Experienced work</span></span></div>
+    <div class="trust-item reveal" data-delay="2"><span class="ti-ic"><svg><use href="#i-map"/></svg></span><span class="ti-tx"><span class="ti-t1">Houston Area</span><br><span class="ti-t2">Serving greater Houston</span></span></div>
+    <div class="trust-item reveal" data-delay="3"><span class="ti-ic"><svg><use href="#i-bolt"/></svg></span><span class="ti-tx"><span class="ti-t1">Fast Response</span><br><span class="ti-t2">Call for a quote</span></span></div>
+  </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section class="section" id="services">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">What We Do</span>
+      <h2>Mobile Auto Repair <span class="grad-text">Services</span></h2>
+      <p class="section-sub">From routine maintenance to no-start diagnostics, we bring the repair to your driveway, office lot, or roadside. <span class="accent-text">Services listed below are editable — confirm your exact offerings before launch.</span></p>
+    </div>
+
+    <div class="grid grid-3">
+      <article class="svc-card reveal">
+        <div class="svc-media"><img src="assets/img/svc-brakes.jpg" alt="Brake disc and caliper service" loading="lazy" decoding="async" width="1000" height="750"><span class="svc-icon"><svg><use href="#i-brake"/></svg></span></div>
+        <div class="svc-body"><h3>Brake Service</h3><p>Pads, rotors, calipers and brake-line inspection to keep your stopping power safe and reliable.</p><a href="#contact" class="svc-link">Get Service <svg><use href="#i-arrow"/></svg></a></div>
+      </article>
+      <article class="svc-card reveal" data-delay="1">
+        <div class="svc-media"><img src="assets/img/svc-battery.jpg" alt="Car battery service and jump start" loading="lazy" decoding="async" width="1000" height="750"><span class="svc-icon"><svg><use href="#i-battery"/></svg></span></div>
+        <div class="svc-body"><h3>Battery Service</h3><p>Testing, replacement and charging-system checks so a dead battery never derails your day.</p><a href="#contact" class="svc-link">Get Service <svg><use href="#i-arrow"/></svg></a></div>
+      </article>
+      <article class="svc-card reveal" data-delay="2">
+        <div class="svc-media"><img src="assets/img/svc-engine.jpg" alt="Engine repair on a modern vehicle" loading="lazy" decoding="async" width="1000" height="750"><span class="svc-icon"><svg><use href="#i-engine"/></svg></span></div>
+        <div class="svc-body"><h3>Engine Repair</h3><p>Diagnostics and repairs on common engine issues, performed on-site wherever it's practical.</p><a href="#contact" class="svc-link">Get Service <svg><use href="#i-arrow"/></svg></a></div>
+      </article>
+      <article class="svc-card reveal">
+        <div class="svc-media"><img src="assets/img/svc-electrical.jpg" alt="Electrical diagnostic scanner on a car" loading="lazy" decoding="async" width="1000" height="750"><span class="svc-icon"><svg><use href="#i-chip"/></svg></span></div>
+        <div class="svc-body"><h3>Electrical Diagnostics</h3><p>Tracing warning lights, parasitic drains and faulty sensors with proper diagnostic equipment.</p><a href="#contact" class="svc-link">Get Service <svg><use href="#i-arrow"/></svg></a></div>
+      </article>
+      <article class="svc-card reveal" data-delay="1">
+        <div class="svc-media"><img src="assets/img/svc-starter.jpg" alt="Starter and alternator replacement" loading="lazy" decoding="async" width="1000" height="750"><span class="svc-icon"><svg><use href="#i-alternator"/></svg></span></div>
+        <div class="svc-body"><h3>Starter &amp; Alternator</h3><p>Car won't crank or keeps dying? We replace and test starting and charging components on-site.</p><a href="#contact" class="svc-link">Get Service <svg><use href="#i-arrow"/></svg></a></div>
+      </article>
+      <article class="svc-card reveal" data-delay="2">
+        <div class="svc-media"><img src="assets/img/svc-maintenance.jpg" alt="General maintenance and oil change" loading="lazy" decoding="async" width="1000" height="750"><span class="svc-icon"><svg><use href="#i-oil"/></svg></span></div>
+        <div class="svc-body"><h3>General Maintenance</h3><p>Oil changes, filters, fluids, belts and routine service to keep your vehicle running its best.</p><a href="#contact" class="svc-link">Get Service <svg><use href="#i-arrow"/></svg></a></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WE COME TO YOU ============ -->
+<section class="section" id="come">
+  <div class="container">
+    <div class="cty">
+      <div class="cty-media reveal">
+        <img src="assets/img/come-to-you.jpg" alt="Mobile mechanic service van at a Houston home" loading="lazy" decoding="async" width="1792" height="1024" data-parallax>
+        <span class="cty-tag">Your Driveway · Your Lot · Roadside</span>
+      </div>
+      <div class="cty-body">
+        <div class="reveal">
+          <span class="eyebrow">The Mobile Model</span>
+          <h2>We Come <span class="grad-text">To You</span></h2>
+          <p class="section-sub">Skip the tow truck and the waiting room. Glen's brings professional tools, parts and expertise directly to where your vehicle is parked.</p>
+        </div>
+        <div class="steps">
+          <div class="step reveal"><span class="step-num">01</span><h3>Call</h3><p>Reach us directly and describe the problem and your location.</p></div>
+          <div class="step reveal" data-delay="1"><span class="step-num">02</span><h3>We Come To You</h3><p>We travel to your home, office or roadside with the right equipment.</p></div>
+          <div class="step reveal" data-delay="2"><span class="step-num">03</span><h3>Get Back On The Road</h3><p>We diagnose, repair and get you moving again.</p></div>
+        </div>
+        <div class="reveal" style="margin-top:30px">
+          <a href="tel:+18322024204" class="btn btn-primary"><svg><use href="#i-phone"/></svg> Call Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ INTERACTIVE SHOWCASE ============ -->
+<section class="section" id="showcase" style="background:linear-gradient(180deg, transparent, rgba(255,255,255,0.015), transparent)">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow">Interactive Diagnostics</span>
+      <h2>Explore What We <span class="grad-text">Service</span></h2>
+      <p class="section-sub">Tap a point on the vehicle to see how we handle each system on-site.</p>
+    </div>
+
+    <div class="showcase">
+      <div class="show-stage reveal">
+        <img src="assets/img/showcase-car.jpg" alt="Modern vehicle in a studio with interactive service points" loading="lazy" decoding="async" width="1536" height="1024">
+        <div class="stage-glow"></div>
+        <button class="hotspot active" style="left:26%; top:40%" data-key="battery" aria-label="Battery service point"><span class="hs-ring"></span><span class="hs-dot"></span><span class="hs-label">Battery</span></button>
+        <button class="hotspot" style="left:44%; top:66%" data-key="brakes" aria-label="Brakes service point"><span class="hs-ring"></span><span class="hs-dot"></span><span class="hs-label">Brakes</span></button>
+        <button class="hotspot" style="left:60%; top:38%" data-key="engine" aria-label="Engine service point"><span class="hs-ring"></span><span class="hs-dot"></span><span class="hs-label">Engine</span></button>
+        <button class="hotspot" style="left:76%; top:58%" data-key="electrical" aria-label="Electrical service point"><span class="hs-ring"></span><span class="hs-dot"></span><span class="hs-label">Electrical</span></button>
+      </div>
+
+      <div class="reveal" data-delay="1">
+        <div class="show-panel" id="show-panel" aria-live="polite">
+          <div class="sp-ic"><svg><use href="#i-battery"/></svg></div>
+          <h3>Battery &amp; Charging</h3>
+          <p id="sp-text">A no-start or slow crank is often the battery or charging system. We test and replace batteries and inspect the alternator right where your vehicle sits.</p>
+          <p class="sp-hint">Hover or tap the glowing points to explore each system.</p>
+        </div>
+        <div class="show-tabs" role="tablist" aria-label="Service systems">
+          <button class="show-tab active" data-key="battery">Battery</button>
+          <button class="show-tab" data-key="brakes">Brakes</button>
+          <button class="show-tab" data-key="engine">Engine</button>
+          <button class="show-tab" data-key="electrical">Electrical</button>
+        </div>
+        <div style="margin-top:24px"><a href="#contact" class="btn btn-secondary">Request A Diagnostic <svg><use href="#i-arrow"/></svg></a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHY CHOOSE ============ -->
+<section class="section" id="why">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow">Why Glen's</span>
+      <h2>Why Houston Drivers <span class="grad-text">Choose Mobile</span></h2>
+    </div>
+    <div class="grid grid-3">
+      <div class="why-card reveal"><span class="why-icon"><svg><use href="#i-route"/></svg></span><h3>True Convenience</h3><p>No arranging a ride or a tow — the repair happens where your vehicle already is.</p></div>
+      <div class="why-card reveal" data-delay="1"><span class="why-icon"><svg><use href="#i-pin"/></svg></span><h3>Served At Your Location</h3><p>Driveway, workplace parking lot or roadside — we work around your schedule and place.</p></div>
+      <div class="why-card reveal" data-delay="2"><span class="why-icon"><svg><use href="#i-clock"/></svg></span><h3>Less Disruption</h3><p>Keep your day. Get professional attention without sitting in a shop waiting room.</p></div>
+      <div class="why-card reveal"><span class="why-icon"><svg><use href="#i-phone"/></svg></span><h3>Direct Contact</h3><p>You talk straight to the mechanic doing the work — one call, no service-desk runaround.</p></div>
+      <div class="why-card reveal" data-delay="1"><span class="why-icon"><svg><use href="#i-chat"/></svg></span><h3>Clear Communication</h3><p>We explain the issue and the work before we start, so you always know what's happening.</p></div>
+      <div class="why-card reveal" data-delay="2"><span class="why-icon"><svg><use href="#i-shield"/></svg></span><h3>Professional Assistance</h3><p>Experienced, careful automotive work with the right tools brought to you.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ REVIEWS ============ -->
+<section class="section reviews" id="reviews">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow">Reputation</span>
+      <h2>What Customers <span class="grad-text">Say</span></h2>
+    </div>
+
+    <!-- NOTE: These are clearly-marked PLACEHOLDER reviews. Replace each slide with
+         real, publicly available, sourced customer reviews before launch. Do not publish
+         fabricated testimonials or customer names. -->
+    <div class="rev-carousel reveal" id="rev-carousel">
+      <div class="rev-track" id="rev-track">
+        <div class="rev-slide"><div class="rev-card"><div class="rev-stars" aria-hidden="true">★★★★★</div><blockquote class="rev-quote">"Editable review placeholder — replace with a real, verified customer review here."</blockquote><div class="rev-author"><span class="rev-avatar">R</span><span class="rev-meta"><span class="rev-name">Reviewer Name</span><br><span class="rev-role">Location · Service type</span></span></div></div></div>
+        <div class="rev-slide"><div class="rev-card"><div class="rev-stars" aria-hidden="true">★★★★★</div><blockquote class="rev-quote">"Editable review placeholder — add another authentic testimonial with the customer's permission."</blockquote><div class="rev-author"><span class="rev-avatar">R</span><span class="rev-meta"><span class="rev-name">Reviewer Name</span><br><span class="rev-role">Location · Service type</span></span></div></div></div>
+        <div class="rev-slide"><div class="rev-card"><div class="rev-stars" aria-hidden="true">★★★★★</div><blockquote class="rev-quote">"Editable review placeholder — link this section to your Google Business Profile reviews when live."</blockquote><div class="rev-author"><span class="rev-avatar">R</span><span class="rev-meta"><span class="rev-name">Reviewer Name</span><br><span class="rev-role">Location · Service type</span></span></div></div></div>
+      </div>
+    </div>
+    <div class="rev-nav">
+      <button class="rev-btn" id="rev-prev" aria-label="Previous review"><svg><use href="#i-chev-l"/></svg></button>
+      <div class="rev-dots" id="rev-dots"></div>
+      <button class="rev-btn" id="rev-next" aria-label="Next review"><svg><use href="#i-chev-r"/></svg></button>
+    </div>
+    <p class="rev-note">Placeholder content — swap in real, sourced reviews before launch.</p>
+  </div>
+</section>
+
+<!-- ============ EMERGENCY CTA ============ -->
+<section class="section emergency" id="emergency">
+  <div class="em-bg"><img src="assets/img/come-to-you.jpg" alt="" loading="lazy" decoding="async" width="1792" height="1024"></div>
+  <div class="em-glow"></div>
+  <div class="container">
+    <h2 class="reveal">Need Auto Repair?</h2>
+    <p class="reveal" data-delay="1">Call Glen's Mobile Auto Repair Services. We come to you across Houston.</p>
+    <div class="reveal" data-delay="2"><a href="tel:+18322024204" class="btn btn-primary btn-lg"><svg><use href="#i-phone"/></svg> Call (832) 202-4204</a></div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="section" id="contact">
+  <div class="container">
+    <div class="contact-wrap">
+      <div class="contact-info reveal">
+        <span class="eyebrow">Get In Touch</span>
+        <h2>Request <span class="grad-text">Service</span></h2>
+        <p class="section-sub">Tell us what's going on and where you are. The fastest way to get help is a phone call — we're ready to come to you.</p>
+        <ul class="contact-list">
+          <li><span class="cl-ic"><svg><use href="#i-phone"/></svg></span><span class="cl-tx"><span class="cl-t1">Call / Text</span><br><a class="cl-t2" href="tel:+18322024204">(832) 202-4204</a></span></li>
+          <li><span class="cl-ic"><svg><use href="#i-pin"/></svg></span><span class="cl-tx"><span class="cl-t1">Shop Address</span><br><span class="cl-t2">5023 Addicks Satsuma Rd Ste R,<br>Houston, TX 77084</span></span></li>
+          <li><span class="cl-ic"><svg><use href="#i-map"/></svg></span><span class="cl-tx"><span class="cl-t1">Service Area</span><br><span class="cl-t2">Houston &amp; surrounding areas</span></span></li>
+        </ul>
+      </div>
+
+      <div class="form-card reveal" data-delay="1">
+        <form id="quote-form" novalidate>
+          <div class="form-grid">
+            <div class="form-field"><label for="name">Name <span class="req">*</span></label><input class="form-control" type="text" id="name" name="name" placeholder="Your name" autocomplete="name"><span class="field-error">Please enter your name.</span></div>
+            <div class="form-field"><label for="phone">Phone <span class="req">*</span></label><input class="form-control" type="tel" id="phone" name="phone" placeholder="(832) 000-0000" autocomplete="tel"><span class="field-error">Please enter a valid phone number.</span></div>
+            <div class="form-field"><label for="vehicle">Vehicle</label><input class="form-control" type="text" id="vehicle" name="vehicle" placeholder="Year / Make / Model" autocomplete="off"><span class="field-error"></span></div>
+            <div class="form-field"><label for="service">Service Needed</label>
+              <select class="form-control" id="service" name="service">
+                <option value="">Select a service…</option>
+                <option>Brake Service</option>
+                <option>Battery Service</option>
+                <option>Engine Repair</option>
+                <option>Electrical Diagnostics</option>
+                <option>Starter &amp; Alternator</option>
+                <option>General Maintenance</option>
+                <option>Other / Not Sure</option>
+              </select><span class="field-error"></span>
+            </div>
+            <div class="form-field full"><label for="location">Preferred Location <span class="req">*</span></label><input class="form-control" type="text" id="location" name="location" placeholder="Address, city, or 'roadside near …'" autocomplete="street-address"><span class="field-error">Please tell us where the vehicle is.</span></div>
+            <div class="form-field full"><label for="message">Message</label><textarea class="form-control" id="message" name="message" placeholder="Describe the problem and your preferred time."></textarea><span class="field-error"></span></div>
+          </div>
+          <div class="form-actions">
+            <button type="submit" class="btn btn-primary btn-lg">Request Service</button>
+            <a href="tel:+18322024204" class="btn btn-secondary"><svg><use href="#i-phone"/></svg> Call Now</a>
+          </div>
+          <div class="form-status" id="form-status" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="#top" class="logo" aria-label="Glen's Mobile Auto Repair Services home">
+          <span class="logo-mark"><svg><use href="#i-wrench"/></svg></span>
+          <span class="logo-text"><span class="lt-1">Glen's Mobile</span><span class="lt-2">Auto Repair</span></span>
+        </a>
+        <p>Glen's Mobile Auto Repair Services — professional mobile auto repair that comes to you across Houston, Texas.</p>
+        <span class="footer-tag"><svg><use href="#i-phone"/></svg> Call (832) 202-4204</span>
+      </div>
+      <div class="footer-col">
+        <h4>Navigate</h4>
+        <ul>
+          <li><a href="#top">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#come">We Come To You</a></li>
+          <li><a href="#why">Why Us</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#services">Brake Service</a></li>
+          <li><a href="#services">Battery Service</a></li>
+          <li><a href="#services">Engine Repair</a></li>
+          <li><a href="#services">Electrical Diagnostics</a></li>
+          <li><a href="#services">General Maintenance</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul class="footer-contact">
+          <li><svg><use href="#i-phone"/></svg><a href="tel:+18322024204">(832) 202-4204</a></li>
+          <li><svg><use href="#i-pin"/></svg><span>5023 Addicks Satsuma Rd Ste R,<br>Houston, TX 77084</span></li>
+          <li><svg><use href="#i-map"/></svg><span>Houston, Texas &amp; surrounding areas</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span data-year>2026</span> Glen's Mobile Auto Repair Services. All rights reserved.</span>
+      <span class="fb-note">Houston, Texas • Mobile Auto Repair</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ MOBILE STICKY CALL BAR ============ -->
+<div class="mobile-call-bar">
+  <a href="tel:+18322024204" class="btn btn-primary mcb-call"><svg><use href="#i-phone"/></svg> Call For Service</a>
+  <a href="#contact" class="btn btn-secondary">Quote</a>
+</div>
+
+<script src="assets/js/script.js" defer></script>
+</body>
+</html>
